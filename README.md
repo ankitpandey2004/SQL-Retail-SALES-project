@@ -71,14 +71,17 @@ WHERE
 Some Basic Questions-
 
 1. Display total data inside Table ?
-  select * from retail_sales
-
-2. How many Sales we have ?
-  select count(*) as Total_sale from retail_sales
-
-3. How many customer we have ?
-  select count(customer_id) as total_customer from retail_sales
-
+```sql
+select * from retail_sales
+```
+3. How many Sales we have ?
+ ```sql
+ select count(*) as Total_sale from retail_sales
+```
+4. How many customer we have ?
+  ```sql
+select count(customer_id) as total_customer from retail_sales
+```
 
 The following SQL queries were developed to answer specific business questions:
 
